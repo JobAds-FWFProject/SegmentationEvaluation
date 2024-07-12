@@ -10,3 +10,6 @@ This code produces a json dictionary of features values for individual images an
 
 ## features_evaluation.py
 This code serves to fit and evaluate logistic regression models based on the dictionary produced in the create_results_dict_layout_analysis.py script.
+
+## logit_model_Hausdorff_BordersText.pkl
+The resulting trained model that takes Hausdorff distance and Text Presence information and classifies a segment as correctly or incorrectly classified.
